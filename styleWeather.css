@@ -701,3 +701,10 @@ nav ul {
   background-color: darkblue;
   color: white;
 }
+.divWeather .accessor {
+  margin-top: 4.3%;
+  color: rgb(17, 163, 124);
+  position: absolute;
+  border-bottom: 1px solid red;
+}
+
