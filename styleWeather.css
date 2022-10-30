@@ -1,0 +1,703 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 5%;
+}
+h1 {
+  margin-left: 45%;
+  margin-top: 4%;
+  color: #000000;
+  font-size: 190%;
+}
+
+body .divWeather {
+  margin-top: 5%;
+  border: 1px solid gray;
+  height: 25rem;
+  width: 30%;
+  padding-top: 6%;
+  margin-left: 30%;
+  border-radius: 10%;
+  background-color: white;
+}
+
+.divWeather .city {
+  margin-top: -3%;
+  margin-left: 2%;
+  font-size: 200%;
+  position: absolute;
+  color: black;
+}
+.divWeather .wind {
+  margin-top: 4%;
+  margin-left: 10.5%;
+  font-size: 130%;
+  position: absolute;
+  cursor: pointer;
+  color: rgb(120, 113, 109);
+  transition-property: all;
+  transition-duration: 1s;
+}
+.divWeather .humidity {
+  margin-top: 4%;
+  margin-left: 15.5%;
+  font-size: 130%;
+  position: absolute;
+  cursor: pointer;
+  color: rgb(120, 113, 109);
+  transition-property: all;
+  transition-duration: 1s;
+}
+.divWeather .temp {
+  margin-top: 4%;
+  margin-left: 1.5%;
+  font-size: 130%;
+  position: absolute;
+  cursor: pointer;
+  color: rgb(120, 113, 109);
+  transition-property: all;
+  transition-duration: 1s;
+}
+.divWeather .temperature {
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 3%;
+  font-size: 160%;
+  cursor: pointer;
+  color: green;
+}
+.divWeather .time {
+  margin-top: 0%;
+  margin-left: 3%;
+  font-size: 120%;
+  position: absolute;
+}
+.divWeather .day {
+  margin-top: -4%;
+  margin-left: 23%;
+  font-size: 120%;
+  position: absolute;
+}
+.divWeather .description {
+  position: absolute;
+  margin-left: 5.4%;
+  margin-top: 2%;
+  font-size: 110%;
+  color: blueviolet;
+}
+.divWeather .conditions {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 110%;
+  position: absolute;
+  color: gray;
+}
+.divWeather label {
+  margin-left: 11%;
+  margin-top: 8.5%;
+  position: absolute;
+  font-size: 134%;
+  color: firebrick;
+}
+.divWeather input {
+  margin-left: 27%;
+  margin-top: 33%;
+  width: 27%;
+  padding-left: 13%;
+  height: 10%;
+}
+.divWeather .submit {
+  margin-left: 35%;
+  margin-top: -3%;
+  width: 30%;
+  padding-left: 1%;
+  height: 10%;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+}
+.divWeather .submit:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.divWeather .accessor {
+  margin-top: 4.3%;
+  color: rgb(17, 163, 124);
+  position: absolute;
+  border-bottom: 1px solid red;
+}
+.day {
+  color: rgb(47, 20, 220);
+}
+.time {
+  color: darkgreen;
+}
+.img {
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 18%;
+  height: 10%;
+  width: 8%;
+  border-color: transparent;
+}
+.hidden {
+  display: none;
+}
+
+nav {
+  background-color: white;
+  margin-top: -1.5%;
+  position: relative;
+  margin-left: -1%;
+  border-bottom: 2px solid gray;
+}
+nav ul {
+  margin-left: 32%;
+  text-decoration: none;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  cursor: pointer;
+  color: rgb(27, 51, 212);
+  font-size: 153%;
+}
+nav ul li:hover {
+  color: gray;
+}
+.homeNav {
+  margin-left: -31%;
+  position: absolute;
+  margin-top: -4rem;
+}
+.webDeveloper {
+  background-color: #7e4a35;
+  margin-left: 0%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 30%;
+  font-size: 350%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #d9ecd0;
+  position: relative;
+}
+.projectsH1 {
+  font-size: 240%;
+  right: 5%;
+  position: relative;
+  margin-top: -1%;
+  color: #4040a1;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.arrow {
+  font-size: 500%;
+  margin-top: -1%;
+  position: relative;
+  margin-left: 43%;
+  animation: 1.5s ease 0s infinite beat;
+}
+@keyframes beat {
+  0%,
+  50%,
+  100% {
+    transform: scale(1, 1);
+  }
+  30%,
+  80% {
+    transform: scale(0.92, 0.95);
+  }
+}
+.weatherH1 {
+  margin-left: 40.5%;
+  color: #7e4a35;
+  font-size: 240%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.mapH1 {
+  margin-left: 42.5%;
+  color: #34a853;
+  font-size: 240%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 8%;
+}
+#map {
+  height: 40rem;
+  width: 71%;
+  margin-left: 28%;
+  position: relative;
+  background-color: grey;
+}
+.mapActivities {
+  height: 40rem;
+  width: 29%;
+  position: absolute;
+  background-color: #ada397;
+}
+.mapActivities h3 {
+  margin-top: 18%;
+  margin-left: 4%;
+  color: #eaece5;
+}
+.calculatorH1 {
+  font-size: 240%;
+  right: 6%;
+  position: relative;
+  margin-bottom: 0.3%;
+  color: rgb(148, 0, 211);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#calcInput {
+  height: 6rem;
+  margin-left: 34%;
+  width: 13%;
+  border-radius: 5%;
+  margin-top: 3%;
+  font-size: 250%;
+  padding-left: 8.5%;
+  color: white;
+  background-color: black;
+}
+.calcContainer {
+  width: 22%;
+  margin-left: 34%;
+  background-color: black;
+  margin-top: 0.1%;
+}
+
+.calcContainer button {
+  padding-top: 8%;
+  display: inline-block;
+  font-size: 290%;
+  height: 10%;
+  width: 32.2%;
+  cursor: pointer;
+  border-radius: 30%;
+  background-color: aqua;
+}
+.calcContainer .equalCalc {
+  width: 45.2%;
+}
+.calcContainer .AcCalc {
+  width: 51.2%;
+}
+.gameH1 {
+  color: #4040a1;
+  font-size: 180%;
+  right: 6%;
+  position: relative;
+  margin-top: 10%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.DivImageGame h3 {
+  margin-left: 36%;
+  margin-top: 31%;
+  color: green;
+  position: absolute;
+  font-size: 150%;
+}
+.DivImageGame img {
+  display: inline;
+  height: 13%;
+  width: 13%;
+  margin-left: 14%;
+  margin-top: 35%;
+  cursor: pointer;
+}
+.DivImageUser img {
+  height: 56%;
+  width: 28%;
+  left: 5%;
+  margin-top: 2%;
+  position: absolute;
+}
+.DivImageComp img {
+  height: 56%;
+  width: 28%;
+  right: 5%;
+  margin-top: 2%;
+  position: absolute;
+}
+.h2Game {
+  display: inline;
+  margin-top: -1%;
+  margin-left: 19%;
+  font-size: 220%;
+}
+.h2comp {
+  position: absolute;
+  right: 15%;
+  color: red;
+}
+.h2User {
+  position: absolute;
+  left: 0%;
+  color: green;
+}
+.ResultsH1 {
+  color: grey;
+  font-size: 180%;
+  right: 49.5%;
+  position: relative;
+  margin-top: 8%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+}
+.SlideShow {
+  height: 45rem;
+  width: 48%;
+  display: inline-flex;
+  overflow: hidden;
+  margin-left: 20%;
+}
+.SlideShow img {
+  margin-top: 5%;
+  height: 30rem;
+  width: 100%;
+  position: relative;
+  transition-duration: 1s;
+  transition-property: 1s;
+}
+.buttonSlide {
+  height: 4rem;
+  width: 4%;
+  position: absolute;
+  margin-top: 14%;
+  margin-left: -52%;
+  cursor: pointer;
+}
+.previous {
+  margin-left: -0.7%;
+}
+@media (max-width: 1350px) {
+  .webDeveloper {
+    background-color: #7e4a35;
+    margin-left: 0%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 30%;
+    font-size: 240%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #d9ecd0;
+    position: relative;
+  }
+}
+body .divWeather {
+  margin-top: 5%;
+  border: 1px solid gray;
+  height: 25rem;
+  width: 40%;
+  padding-top: 6%;
+  margin-left: 30%;
+  border-radius: 10%;
+  background-color: white;
+}
+.divWeather .wind {
+  margin-top: 4%;
+  margin-left: 11.5%;
+  font-size: 130%;
+  position: absolute;
+  cursor: pointer;
+  color: rgb(120, 113, 109);
+  transition-property: all;
+  transition-duration: 1s;
+}
+.divWeather .humidity {
+  margin-top: 4%;
+  left: 31.5%;
+  font-size: 130%;
+  position: absolute;
+  cursor: pointer;
+  color: rgb(120, 113, 109);
+  transition-property: all;
+  transition-duration: 1s;
+}
+.divWeather .day {
+  margin-top: -4%;
+  margin-left: 26%;
+  font-size: 120%;
+  position: absolute;
+}
+.divWeather label {
+  margin-left: 13%;
+  margin-top: 17.5%;
+  position: absolute;
+  font-size: 134%;
+  color: firebrick;
+}
+.divWeather input {
+  margin-left: 27%;
+  margin-top: 49%;
+  width: 24%;
+  padding-left: 13%;
+  height: 10%;
+}
+.divWeather .submit {
+  margin-left: 32%;
+  margin-top: 3%;
+  width: 27%;
+  padding-left: 1%;
+  height: 10%;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 4%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  cursor: pointer;
+  color: rgb(27, 51, 212);
+  font-size: 133%;
+}
+nav ul {
+  margin-left: 25%;
+  text-decoration: none;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+}
+
+@media (max-width: 1150px) {
+  .divWeather .wind {
+    margin-top: 4%;
+    margin-left: 14.5%;
+    font-size: 130%;
+    position: absolute;
+    cursor: pointer;
+    color: rgb(120, 113, 109);
+    transition-property: all;
+    transition-duration: 1s;
+  }
+  .h2Game {
+    font-size: 120%;
+  }
+  .divWeather .humidity {
+    margin-top: 4%;
+    left: 37.5%;
+    font-size: 130%;
+    position: absolute;
+    cursor: pointer;
+    color: rgb(120, 113, 109);
+    transition-property: all;
+    transition-duration: 1s;
+  }
+  .divWeather .time {
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 120%;
+    position: absolute;
+  }
+  body h1 {
+    font-size: 80%;
+  }
+  .webDeveloper {
+    background-color: #7e4a35;
+    margin-left: 0%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 30%;
+    font-size: 180%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #d9ecd0;
+    position: relative;
+  }
+  .divWeather .time {
+    margin-top: 0.2%;
+    margin-left: 3%;
+    font-size: 100%;
+    position: absolute;
+    margin-bottom: 1%;
+  }
+  .SlideShow img {
+    margin-top: 5%;
+    height: 20rem;
+    width: 100%;
+    position: relative;
+    transition-duration: 1s;
+    transition-property: 1s;
+  }
+  .buttonSlide {
+    height: 2.5rem;
+    width: 4%;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: -52%;
+    cursor: pointer;
+  }
+  .previous {
+    margin-left: -0.4%;
+  }
+  .calcContainer {
+    width: 30%;
+    margin-left: 34%;
+    background-color: black;
+    margin-top: 0.1%;
+  }
+  .calcContainer button {
+    padding-top: 8%;
+    display: inline-block;
+    font-size: 170%;
+    height: 10%;
+    width: 31.8%;
+    cursor: pointer;
+    border-radius: 30%;
+    background-color: aqua;
+  }
+  #calcInput {
+    height: 5rem;
+    margin-left: 34%;
+    width: 21%;
+    border-radius: 5%;
+    margin-top: 3%;
+    font-size: 250%;
+    padding-left: 8.5%;
+    color: white;
+    background-color: black;
+  }
+}
+
+@media (max-width: 1050px) {
+  nav ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    cursor: pointer;
+    color: rgb(27, 51, 212);
+    font-size: 83%;
+  }
+
+  nav ul {
+    margin-left: 15%;
+    text-decoration: none;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+  }
+  .divWeather .wind {
+    margin-top: 4%;
+    margin-left: 16.5%;
+    font-size: 110%;
+    position: absolute;
+    cursor: pointer;
+    color: rgb(120, 113, 109);
+    transition-property: all;
+    transition-duration: 1s;
+  }
+
+  .divWeather .humidity {
+    margin-top: 4%;
+    left: 39.5%;
+    font-size: 110%;
+    position: absolute;
+    cursor: pointer;
+    color: rgb(120, 113, 109);
+    transition-property: all;
+    transition-duration: 1s;
+  }
+  .divWeather .time {
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 100%;
+    position: absolute;
+    margin-bottom: 1%;
+  }
+  .divWeather .temperature {
+    font-size: 110%;
+    position: absolute;
+    cursor: pointer;
+    color: rgb(120, 113, 109);
+    transition-property: all;
+    transition-duration: 1s;
+  }
+  #calcInput {
+    height: 4rem;
+    margin-left: 34%;
+    width: 21%;
+    border-radius: 5%;
+    margin-top: 3%;
+    font-size: 250%;
+    padding-left: 8.5%;
+    color: white;
+    background-color: black;
+  }
+  .h2comp {
+    position: absolute;
+    right: 15%;
+    color: red;
+    font-size: 100%;
+  }
+  .h2User {
+    position: absolute;
+    left: 0%;
+    color: green;
+    font-size: 100%;
+  }
+  .ResultsH1 {
+    color: grey;
+    font-size: 140%;
+    right: 47.5%;
+    position: relative;
+    margin-top: 8%;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    position: absolute;
+  }
+  .SlideShow img {
+    margin-top: 5%;
+    height: 20rem;
+    width: 100%;
+    position: relative;
+    transition-duration: 1s;
+    transition-property: 1s;
+  }
+  .buttonSlide {
+    height: 2.5rem;
+    width: 4%;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: -52%;
+    cursor: pointer;
+  }
+  .previous {
+    margin-left: -0.4%;
+  }
+}
+.divWeather label {
+  margin-left: 16%;
+  margin-top: 14.5%;
+  position: absolute;
+  font-size: 134%;
+  color: firebrick;
+}
+.divWeather input {
+  margin-left: 27%;
+  margin-top: 40%;
+  width: 27%;
+  padding-left: 13%;
+  height: 10%;
+}
+.divWeather .submit {
+  margin-left: 35%;
+  margin-top: 2%;
+  width: 30%;
+  padding-left: 1%;
+  height: 10%;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+}
